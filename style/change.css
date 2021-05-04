@@ -1,0 +1,86 @@
+.section {
+    margin: 12% auto 0 auto;
+}
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+.article-head {
+    width: 50%;
+    margin: 1% auto;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 0 0 20px 0;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tx-wrap {
+    margin: 2%;
+}
+
+.tx-wrap p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.border {
+    width: 2px;
+    background-color: #f24ca2;
+}
+
+.citat {
+    margin: 0 0 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.citat.konklu {
+    margin: 0 auto 2% auto;
+}
+
+/* mobil */
+/* @media */
+
+@media screen and (max-width: 1200px) {
+
+    .bold {
+        font-weight: 700;
+        color: black;
+    }
+
+    .article-head {
+        width: 90%;
+        margin: 1% auto;
+        color: black;
+        text-align: center;
+        background-color: white;
+        padding: 0 auto;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tx-wrap {
+        width: 100%;
+        letter-spacing: 1px;
+        margin: 2%;
+    }
+
+    .border {
+        display: none;
+    }
+}

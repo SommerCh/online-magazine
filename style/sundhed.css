@@ -1,0 +1,113 @@
+.section {
+    margin: 12% auto 0 auto;
+}
+
+.article-head {
+    margin: 0 auto 5% auto;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+article {
+    display: flex;
+    margin: 0 auto 2% auto;
+    /* justify-content: space-evenly; */
+    width: 80%;
+}
+
+.citat {
+    margin: 0 0 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+}
+
+.collum a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #f24ca2;
+}
+
+.citat.konklu {
+    margin: 0 auto 2% auto;
+}
+
+
+/* bund */
+
+.test {
+    position: relative;
+    background-color: white;
+    padding: 30px 10px 20px 30px;
+    margin: 3%;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.citat.konklu {
+    margin: 0 auto 3% auto;
+    text-align: center;
+}
+
+.citat-text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mindful-img {
+    width: 38%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.mindful-img img {
+    width: 100%;
+}
+
+/* mobil */
+/* @media */
+
+@media screen and (max-width: 1200px) {
+
+    .mindful-img {
+        width: 80%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 2% auto;
+        width: 100%;
+    }
+
+    .citat {
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 20px;
+        color: black;
+        margin: auto;
+    }
+
+    .collum {
+        width: 100%;
+    }
+
+    .collum a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: #f24ca2;
+    }
+
+
+
+    .citat.konklu {
+        margin: 2% auto;
+    }
+}
